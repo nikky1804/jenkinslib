@@ -2,7 +2,7 @@ def gitdown(repo)
 {
   git "https://github.com/IntelliqDevops/${repo}"
 }
-def contbuilt()
+def contbuild()
 {
   sh 'mvn package'
 }
