@@ -1,4 +1,4 @@
-def gitdown('repo')
+def gitdown(repo)
 {
-  https://github.com/nikky1804/${repo}.git
+  git "https://github.com/nikky1804/${repo}.git"
 }
