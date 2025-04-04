@@ -12,5 +12,5 @@ def deploy(jobname,ipaddress,filename)
 }
 def test()
 {
-  sh "java -jar var/lib/tomcat10/webapp/${filename}.jar
+  sh "java -jar var/lib/tomcat10/webapp/${filename}.jar"
 }
